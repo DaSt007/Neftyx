@@ -32,5 +32,9 @@ def create_app(test_config=None):
     @app.route('/dva')
     def dva():
         return render_template('dva.html')
+    
+    @app.route('/detail')
+    def detail():
+        return render_template('detail.html')
 
     return app
