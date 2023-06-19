@@ -18,5 +18,5 @@ python start.py
 Bez livereloadu:
 
 ```
-flask --app app run --debug -p 8000
+flask run
 ```
